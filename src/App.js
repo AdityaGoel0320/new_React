@@ -1,4 +1,11 @@
-import './App.css';
+// import './style/Header.scss';
+import './style/Main.css';
+import './style/Home.css';
+import './style/Navabr.css';
+import './style/Home.css';
+import './style/Links.css';
+import './style/Contact.css';
+
 
 
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
@@ -19,14 +26,14 @@ import GoogleKeepFinal from './Components/GoogleKeepFinal';
 import TabChanger from './Components/TabChanger';
 import ReactRouter from './Components/ReactRouter';
 import Search from './Components/Search';
-import Home from './Components/Responsive/Home';
+// import Home from './Components/Responsive/Home';
 import Contact from './Components/Responsive/Contact';
 import Service from './Components/Responsive/Service';
 import About from './Components/Responsive/About';
 // import Navbar from './Components/Responsive/Navbar';
 import Errorpage from './Components/Errorpage';
 import Footer from './Components/Responsive/Footer';
-import Main from './Components/Responsive/Main';
+// import Main from './Components/Responsive/Main';
 import Weather from './Components/Weather';
 import UpdatedTodoList from './Components/UpdatedTodoList';
 import Menu from './Components/Menu';
@@ -36,6 +43,9 @@ import Menubtn from './Components/Menubtn';
 import ResponsiveNavbar from './Components/ResponsiveNavbar';
 
 import Navbar from './Components/6_pack_programmer/First/Navbar';
+import Main from './Components/6_pack_programmer/First/Main';
+
+
 
 
 
@@ -51,7 +61,7 @@ function App() {
       {/* <Accordian/> */}
       {/* <Input/> */}
       {/* <Advanceinput/> */}
-      <GoogleKeepFinal/> 
+      {/* <GoogleKeepFinal/>  */}
       {/* <TabChanger /> */}
 
       {/* <ReactRouter/> */}
@@ -79,6 +89,7 @@ function App() {
 
 
 
+      <Main />
       {/* <Navbar/> */}
 
 
