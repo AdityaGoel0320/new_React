@@ -11,6 +11,8 @@ export default function ProductItem(props) {
     return (
         <>
 
+
+
             <div className='item_div'>
                 <Link to={`/products/${props.link_id}`}>
                     <img className='item_img' src={props.image} alt="pizza photo" />
@@ -20,7 +22,7 @@ export default function ProductItem(props) {
                 <div className="price_add">
                     <span>{props.price} Rs</span>
 
-                    <button  onClick={fnc} id="btn" className='addbtn'>Add</button>
+                    <button onClick={fnc} id="btn" className='addbtn'>Add</button>
                 </div>
             </div>
         </>

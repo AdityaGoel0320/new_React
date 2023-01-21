@@ -1,13 +1,9 @@
-import React from 'react'
+import React  ,  {useState} from 'react'
 import { BrowserRouter, Link, Redirect, Route, Routes, Switch } from 'react-router-dom';
 
 export default function Navigation() {
-    // let cartstyle = {
-    //     backgroundColor : "#F59E0D" , 
-    //     display  : "flex" , 
-    //     padding : "4px " , 
-    //     border : "2px solid black"
-    // }
+    const [value, setvalue] = useState()
+    
     return (
         <>
             <div className="navbox">
@@ -23,7 +19,7 @@ export default function Navigation() {
                         <li className='li'>
                             <Link to='/cart'>
                                 <div className='cart_btn'>
-                                    <span className='cart_value'>0</span>
+                                    <span className='cart_value'>{value}</span>
                                     <i class="fa-sharp fa-solid fa-cart-shopping"></i>
                                 </div>
 
