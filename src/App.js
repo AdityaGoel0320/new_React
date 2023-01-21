@@ -3,6 +3,7 @@ import './style/pages.css';
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 // import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
 
+
 import { BrowserRouter, Link, Redirect, Route, Routes, Switch } from 'react-router-dom';
 
 import Home from './Pages/Home';
@@ -11,6 +12,12 @@ import Products from './Pages/Products';
 import Cart from './Pages/Cart';
 import SingleProduct from './Pages/SingleProduct';
 import Footer from './Pages/Footer';
+
+
+
+
+
+
 
 function App() {
   return (
